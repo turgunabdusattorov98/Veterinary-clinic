@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
+    <!--NAV TOP START-->
+    <address class="bg-[#F9F8F8] pt-[11px] pb-[9px]">
+        <ul
+            class="max-w-[1340px] font-medium pt-[111] mx-auto flex justify-between text-end px-[15px] text-[14px] text-[#333333]">
+            <li class="flex items-center gap-[20px]">
+                <img src="./icons/home.svg" alt="home-icon" />
+                <p>г. Мариуполь, проспект Победы, 48а</p>
+            </li>
+            <li class="flex items-center gap-[9px]">
+                <img src="./icons/phone.svg" alt="call icon" width="14">
+                <a href="tel:(0676347574)">(067) 634 -75 - 74</a>
+                <a class="before:content-[url('../icons/dot.svg')]" href="tel:(0637570131)">(0637) 57 - 01 - 31</a>
+                <a class="before:content-[url('../icons/dot.svg')]" href="tel:(0982664389)">(098) 266 - 43 - 89</a>
+            </li>
+            <li class="flex items-center gap-[9px]">
+                <img src="./icons/schedule.svg" alt="home-icon" />
+                <p> <strong>Пн - Пт</strong> 8:00 - 18:00</p>
+                <p> <strong>Сб - Вс</strong> 8:00 - 14:00</p>
+            </li>
+        </ul>
+    </address>
+    <!--NAV TOP START-->
+
     <!--HEADER START-->
     <header>
-        <!--NAV TOP START-->
-        <div class="bg-[#F9F8F8] pt-[11px] pb-[9px]">
-            <ul class="max-w-[1147px] font-medium pt-[111] mx-auto flex justify-between px-[15px] text-[14px] text-[#333333]">
-                <li class="flex items-center gap-[9px]">
-                    <img src="./icons/home.svg" alt="home-icon" />
-                    <address>г. Мариуполь, проспект Победы, 48а</address>
-                </li>
-                <li class="flex items-center gap-[9px]">
-                    <img src="./icons/phone.svg" alt="call icon" width="14">
-                    <a href="tel:(0676347574)">(067) 634 -75 - 74</a>
-                    <a  class="before:content-[url('../icons/dot.svg')]"href="tel:(0637570131)">(0637) 57 - 01 - 31</a>
-                    <a  class="before:content-[url('../icons/dot.svg')]"href="tel:(0982664389)">(098) 266 - 43 - 89</a>
-                </li>
-                <li class="flex items-center gap-[9px]">
-                    <img src="./icons/schedule.svg" alt="home-icon" />
-                    <p> <strong>Пн - Пт</strong> 8:00 - 18:00</time></p>
-                    <p> <strong>Сб - Вс</strong> 8:00 - 14:00</time></p>
-                </li>
-            </ul>
-        </div>   
-        <!--NAV TOP START-->
-        
+
         <!--NAV START-->
         <div class="bg-white">
-            <div class="max-w-[1340px] mx-auto font-medium text-4 text-[#333333] flex justify-between px-[15px] items-center">
+            <div
+                class="max-w-[1340px] mx-auto font-medium text-4 text-[#333333] flex justify-between px-[15px] items-center">
                 <a href="#"><img src="./icons/logo.svg" alt="logo" width="178" height="86"></a>
                 <nav class="flex gap-[12.14px] items-center">
                     <img src="./icons/active.svg" alt="active">
@@ -60,7 +65,9 @@
                 </nav>
                 <div class="flex gap-[5px] items-center">
                     <img src="./icons/pet.svg" alt="pet">
-                    <a href="#"><p>Задать вопрос</p></a>                
+                    <a href="#">
+                        <p>Задать вопрос</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -69,42 +76,243 @@
     <!--HEADER END-->
 
     <!-- MAIN START  -->
-    <main class="bg-[#F9F8F8] h-screen" style="background-image: url(./image/bg.png);">
+    <main class="max-w-[1340px] mx-auto bg-[#F9F8F8] h-[100%]" style="background-image: url(./image/bg.png);">
         <!-- HERO START -->
-        <section class="h-full" style="background-image: url(./image/Group\ 50.png), url(./image/Group\ 52.png); background-repeat: no-repeat; background-position: 0px -90px, right bottom;">
-            <div class="max-w-[1340px] mx-auto flex justify-end pt-[145.77px] ">
+        <section class="h-full"
+            style="background-image: url(./image/Group\ 50.png), url(./image/Group\ 52.png); background-repeat: no-repeat; background-position: 15px -160px, right bottom;">
+            <div class="max-w-[1340px] mx-auto flex px-4 justify-end pt-[145.77px] ">
                 <div class="text-left">
-                  <h1 class="w-[608px] text-[70px] leading-[64px] text-[#333333] mb-[29px]">
-                    Мы заботимся о ваших питомцах!
-                  </h1>
-                  <p class="w-[495px]">
-                    Вам и Вашему любимцу множество услуг по диагностике, профилактике
-                    заболеваний по лечению и уходу за Вашими животными. Профессионалы
-                    работающие в нашей клинике сделают все для того, чтобы быстро,
-                    эффективно и максимально безболезненно выполнить любие процедуры,
-                    которые необходимы Вашему домашнему любимцу.
-                  </p>
-                  <button class="bg-[#333333] py-[15px] px-12 rounded-[3px]" type="button">Наши услуги</button>
+                    <h1 class="w-[500px] text-[70px] leading-[64px] text-[#333333] mb-[29px]">
+                        Мы заботимся о ваших питомцах!
+                    </h1>
+                    <p class="w-[495px]">
+                        Вам и Вашему любимцу множество услуг по диагностике, профилактике
+                        заболеваний по лечению и уходу за Вашими животными. Профессионалы
+                        работающие в нашей клинике сделают все для того, чтобы быстро,
+                        эффективно и максимально безболезненно выполнить любие процедуры,
+                        которые необходимы Вашему домашнему любимцу.
+                    </p>
+                    <button class="bg-[#333333] py-[15px] px-12 rounded-[3px]" type="button">Наши услуги</button>
                 </div>
             </div>
         </section>
         <!-- HERO END -->
-        
-
-
         <!-- QUOTE START -->
-        <section class="max-w-4xl mx-auto px-4 py-12 text-center">
-            <blockquote class="relative w-[700px] mx-auto mt-11  px-7 text-lg   mb-6">
-              <q>Нашa ветеринарная клиника готова уделить максимум внимания Вам и Вашему питомцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.</q>
+        <section class="max-w-[1134px] mx-auto px-4 py-12 text-center">
+            <blockquote class=" mx-auto mt-11  px-7 text-lg mb-6">
+                <hr class="w-[140px] mx-auto text-[#dbdbdb]">
+                <q
+                    class="text-justify text-[#949494] font-bold text-[20px ] before:content-[url('../icons/1.svg')] after:content-[url('../icons/2.svg')] ">Наша
+                    ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие
+                    Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную
+                    помощь.</q>
+                <hr class="w-[140px] mt-[35px] mx-auto text-[#dbdbdb]">
             </blockquote>
-            <p class="text-xl font-semibold text-gray-800 mt[32px]">Оржоникидзевская Ветеринарная клиника</p>
+            <p class="font-bold text-[20px] text-[#333]  text-xl mb-[191px] mt-[32px]">Оржоникидзевская Ветеринарная
+                клиника
+            <p>
         </section>
-        
-          
+
         <!-- QUOTE END  -->
+
+
+        <!-- SERVICES START -->
+        <section class="mb-[127px]">
+            <div class="gap-y-2 mx-auto flex flex-col justify-between px-4 items-center">
+                <h2 class="mb-20 text-center font-bold text-[48px] leading-[54px] text-[#333333]">
+                    Наши услуги
+                </h2>
+                <div class=" mb-[14px]">
+                    <ul class="flex justify-center gap-[13px] bg-[#ffffff] *:w-[193px] *:h-[215px] ]">
+                        <li>
+                            <img src="./icons/doctor.svg" alt="#">
+                            <p data-text>Первичный осмотр</p>
+                        </li>
+                        <li>
+                            <img src="./icons/filled outline.svg" alt="#">
+                            <p data-text>Первичный осмотр</p>
+                        </li>
+                        <li>
+                            <img src="./icons/filled outline (1).svg" alt="#">
+                            <p data-text>Хирургическое вмешательство</p>
+                        </li>
+                        <li>
+                            <img src="./icons/filled outline (2).svg" alt="#">
+                            <p data-text>Дерматология</p>
+                        </li>
+                        <li>
+                            <img src="./icons/veterinary-3 1.svg" alt="#">
+                            <p data-text>Лабораторная диагностика</p>
+                        </li>
+                        <li>
+                            <img class="" src="./icons/filled outline (3).svg" alt="#">
+                            <p data-text>Офтальмология</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES END -->
+
+        <!--ADVERTESTMENT START-->
+        <section>
+            <div class="flex flex-col justify-between px-4 items-center">
+                <div class="flex items-center justify-between gap-[67px] py-[42px] pl-[35px]">
+                    <img src="./image/Mask Group.jpg" alt="Mask Group" width="524" height="329">
+                    <div class="flex flex-col">
+                        <h2 class="font-bold text-[36px] leading-[20px] text-[#333333] mb-[18px]">Первичный осмотр</h2>
+                        <p class="text-[16px] leading-[20px] text-[#949494] mb-[9px]">По условиям акции в нашей клинике
+                            предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше
+                            время. Вы имеете возможность оставить у нас.</p>
+                        <p class="text-[16px] leading-[20px] text-[#949494] mb-[34px]">По условиям акции в нашей клинике
+                            предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше
+                            время. Вы имеете возможность оставить у нас.</p>
+                        <div class="flex items-center gap-[21px]">
+                            <button
+                                class="py-[15px] px-[35px] bg-[#FFBD54] hover:bg-opacity-80 active:bg-opacity-60 text-white flex items-center gap-[6px] rounded-[3px]"
+                                type="button"><img src="./icons/money 1.svg" alt="img">Узнать цену</button>
+                            <button
+                                class="py-[15px] px-[35px] bg-[#333333] hover:bg-opacity-80 active:bg-opacity-60  text-white flex items-center gap-[6px] rounded-[3px]"
+                                type="button"><img src="./icons/document 1.svg" alt="img">Записаться на приём</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ADVERTESTMENT START-->
+
+        <!-- SUBSCRIBE START -->
+        <section class="h-[481px] flex items-center bg-[url(/image/Sub.png)] bg-no-repeat bg-center bg-cover">
+            <div class="w-[1340px] mx-auto px-4">
+                <div class="flex flex-col pt-[138px] pl-[90px]">
+                    <h2 class="text-[48px] leading-[20px] font-bold text-5xl text-white mb-8">Будь в курсе событий</h2>
+                    <div class="flex gap-[21px] mt-[32px]">
+                        <form action="https://echo.htmlacademy.ru">
+                            <input
+                                class="w-[335px] h-[50px] bg-white p-[18px_22px_12px] rounded-[5px] outline-0 mr-5 pt-[18px] pb-[12px] pl-[22px] pr-[142px]  placeholder:text-[15px] "
+                                type="email" placeholder="Укажите Ваш email адрес">
+                        </form>
+                        <button
+                            class="font-medium text-[16px] text-white bg-[#333333] rounded-[3px] py-[15px] px-[48px]"
+                            type="button">Подписаться</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SUBSCRIBE END -->
+        <!-- ARTICLE START -->
+        <section>
+            <div class="max-w-screen-xl mx-auto px-4 flex flex-col items-center">
+                <h2 class="font-bold text-[48px] leading-[20px] text-[#333333] mb-[80px]">Полезные статьи</h2>
+                <ul class="flex gap-6 mb-[262px]">
+                    <li class="flex flex-col rounded-[5px] max-w-[305px] shadow-md">
+                        <img src="./image/Rectangle 27.jpg" alt="Rectangle 27" width="308">
+                        <div class="pt-[21px] px-[22px] pb-[36px]">
+                            <h3 class="font-bold text-[22px] leading-[25px] text-[000000] max-w-[182px] mb-[10px]">
+                                Ультразвуковая чистка зубов</h3>
+                            <p class="text-[16px] leading-[20px] text-[#949494] mb-[34px]">Появление в доме котенка
+                                приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                            <div class="flex items-center gap-[5px]">
+                                <img src="./icons/pet.svg" alt="icons-pet">
+                                <p>Читать больше</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="flex rounded-[5px] max-w-[640px] shadow-md">
+                        <img src="./image/Rectangle 25.jpg" alt="Rectangle 25" width="305">
+                        <div class="pt-[41px] px-[32px] pb-[36px]">
+                            <p class="font-[14px] leading-[22px] text-[#3D9CEA] flex justify-between mb-[31px]"></time>
+                            </p>
+                            <h3 class="font-bold text-[23px] leading-[25px] text-[000000] max-w-[182px] mb-[10px]">Перед
+                                тем как завести собаку</h3>
+                            <p class="text-[16px] leading-[20px] text-[#949494] mb-[34px]">Появление в доме котенка
+                                приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков,
+                                Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым
+                                вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в
+                                доме котенка приятное и радосное событие.</p>
+                            <div class="flex items-center gap-[5px]">
+                                <img src="./icons/pet.svg" alt="icons-pet">
+                                <p>Читать больше</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="flex flex-col rounded-[5px] max-w-[305px] shadow-md ">
+                        <img src="./image/Rectangle 27 (1).jpg" alt="Rectangle 27 (1)" width="308">
+                        <div class="pt-[21px] px-[23px] pb-[36px]">
+                            <h3 class="font-bold text-[23px] leading-[25px] text-[000000] max-w-[182px] mb-[10px]">Когда
+                                привавать питомца?</h3>
+                            <p class="text-[16px] leading-[20px] text-[#949494] mb-[34px]">Появление в доме котенка
+                                приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                            <div class="flex items-center gap-[5px]">
+                                <img src="./icons/pet.svg" alt="icons-pet">
+                                <p>Читать больше</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ARTICLE END -->
+        <!--ADV START-->
+        <section class=" w-[1444px] flex flex-row h-[649px] mb-[247px]">
+            <iframe src="./image/Rectangle 48.png" width="462" height="652" frameborder="0"></iframe>
+            <img class="flex" src="./image/feedback-bg.png" width="977" height="652" alt="feedback">
+
+        </section>
+        <!--ADV END-->
+
     </main>
     <!-- MAIN END -->
 
-    
+
+    <!-- FOOTER START -->
+    <footer class="max-w-[1340px] mx-auto pt-[54px] px-[65px] bg-[#EBEBEB]">
+        <div class="px-4 flex justify-between mb-[28px]">
+            <a href="./index.html"><img src="./icons/logo.svg" width="158" height="76" alt="logo"></a>
+
+            <nav class="flex justify-between w-[288px] gap-[30px]">
+                <ul class="flex flex-col gap-[14px]">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О Клинике</a></li>
+                    <li><a href="#">Наши Услуги</a></li>
+                </ul>
+                <ul class="flex flex-col gap-[14px]">
+                    <li><a href="#">Полезные Статьи</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <address class="flex gap-[30px]">
+                <div class="flex items-start gap-[14px]">
+                    <img src="./icons/schedule.svg" alt="schedule" width="14">
+                    <div>
+                        <p> <strong>Пн - Пт</strong> 8:00 - 18:00</p>
+                        <p> <strong>Сб - Вс</strong> 8:00 - 14:00</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[14px]">
+                    <img src="./icons/home.svg" alt="home" width="14">
+                    <p class="font-medium text-[14px] text-[#333333] max-w-[157px]">г. Мариуполь, проспект Победы, 48а
+                    </p>
+                </div>
+                <div class="flex items-start gap-[14px]">
+                    <img src="./icons/phone.svg" alt="phone" width="14">
+                    <div class="flex flex-col font-medium text-[14px] text-[#333333]">
+                        <a href="tel:(0676347574)">(067) 634 -75 - 74</a>
+                        <a href="tel:(0637570131)">(0637) 57 - 01 - 31</a>
+                        <a href="tel:(0982664389)">(098) 266 - 43 - 89</a>
+                    </div>
+                </div>
+            </address>
+        </div>
+
+    </footer>
+    <!-- FOOTER END -->
+
+
+
+
 </body>
+
 </html>
